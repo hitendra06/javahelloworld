@@ -10,7 +10,7 @@ pipeline{
         }
         stage('Run'){
             steps{
-                echo 'Running the java program...!'
+                echo 'Running the java program for dev branch...'
                 sh 'java HelloWorld'
             }
         }
